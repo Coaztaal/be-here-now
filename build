@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang=“en”>
+<meta charset=“UTF-8”>
+<meta name=“viewport” content=“width=device-width,initial-scale=1”>
+<title>Be Here Now</title>
+<style>
+body{margin:0;height:100vh;background:#fff8e1;display:grid;place-items:center;text-align:center;font:3rem/1.4 Georgia;color:#654;font-size:5vw}
+div{background:#fff9;padding:2rem 3rem;border-radius:3rem;box-shadow:0 20px 40px #0002;max-width:88%}
+</style>
+<body onclick=“d.innerHTML=q[Math.random()*q.length|0]”>
+
+<div id=d>Click anywhere ♡</div>
+
+<script>
+q=[
+“Be here now.”,
+“We’re all just walking each other home.”,
+“The quieter you become, the more you can hear.”,
+“Treat everyone you meet like God in drag.”,
+“Wherever you are, be all there.”,
+“The heart surrenders everything to the moment.”,
+“Inhale love, exhale gratitude.”,
+“We’re all God in drag.”,
+“The game is to become nobody.”,
+“Love everyone. Serve everyone. Remember God.”
+];
+d.innerHTML=q[Math.random()*q.length|0]
+</script>
+
+</body>
+</html>
